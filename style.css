@@ -1,0 +1,244 @@
+*{  padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.clear{
+    clear: both;
+}
+
+.header{position: fixed;
+    width: 100%;
+    z-index: 0;
+
+}
+.header .logo{float: left;
+width: 40%;
+}
+
+.header .logo h1{padding: 10px 0px 10px 70px;
+    font-size: 23px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px black;
+}
+.header .logo h1 span{color: rgb(255, 169, 48);
+}
+
+
+.header .nav{float:left;
+width: 60%;
+text-align: center
+}
+.header .nav ul li{display:inline-block;
+    padding: 25px 13px;
+    
+}
+.header .nav ul li a{text-decoration: none;
+    padding: 8px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px black;
+}
+.header .nav ul li a:hover{color: rgb(255, 169, 48);
+text-decoration: underline;
+text-transform: uppercase;
+}
+.home{
+    padding-top: 10px;
+    background-image: url(image/coffee.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+.home .home-container{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+.home .home-container h2{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    margin-bottom: 8px;
+    font-weight: bold;
+    text-shadow: -2px -2px 5px black;
+    text-transform: uppercase;
+    text-align: center;
+}
+.home .home-container p{
+    color: rgb(255, 255, 255);
+    text-shadow: -2px -2px 7px rgb(0, 0, 0);
+    line-height: 1.5;
+    font-weight: 400px;
+    text-align: center;
+}
+.home .home-container button{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color:  rgb(255, 169, 48);
+    box-shadow: 0 0 2pxrgb(166, 18, 23),0 0 2px  rgb(255, 169, 48);
+    width: 31%;
+    margin-top: 16px;
+    margin-left: 30%;
+}
+.home .home-container button:hover{
+    box-shadow: 0 0 5px  rgb(255, 169, 48), 0 0 25px  rgb(255, 169, 48), 0 0 50px  rgb(255, 169, 48), 0 0 100px  rgb(255, 169, 48), 0 0 200px  rgb(255, 169, 48);
+  
+}
+.cards{
+    margin-top:50px ;
+}
+.title{
+    text-align: center;
+    font-size: 50px;
+
+}
+.dest{
+    text-align: center;
+    color: gray;
+    margin-top:16px ;
+}
+.card-item{
+    
+    margin-top: 16px;
+    float: left;
+    width: 40%;
+    background-color: rgba(250, 246, 246, 0.683);
+    padding: 10px;
+    margin-right:10% ;
+    border-radius: 20%;
+    box-shadow: 0 0 5px 0 rgb(193, 190, 190);
+}
+.card-item:hover{
+    background-color: rgb(255, 233, 185);
+
+}
+.card-img{
+
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    margin: 10px;
+    padding: 16px;
+    border-radius:50px ;
+
+}
+.card-img img{
+    width: 100%;
+    height: 100%;
+    border-radius:50px ;
+    margin-left: 134%;
+    margin-top: -20px;
+}
+.card-title{
+    color: rgb(255, 139, 15);
+    text-align: center;
+    margin-top:8px ;
+}
+.card-dosc {
+    color: rgb(0, 0, 0);
+    margin-top: -10px;
+    text-align: center;
+
+}
+.card-img:hover{
+    margin-right: 1px;
+}
+.forms{
+    margin-top: 50px;
+    background-color: rgb(244, 174, 109);
+}
+.forms .title{
+    width: 100%;
+    float: left;
+    text-align: center;
+    font-size: 50px;
+   margin-top: 16px;
+}
+.forms .dosc{
+    text-align: center;
+    margin-top:20px ;
+    color: gray;
+    
+}
+.forms .form{
+    text-align: center;
+    margin-top: 16px;
+    
+}
+.forms .submit{
+    text-align: center;
+}
+h3{
+    text-align: center;
+    font-size: 40px;
+color: rgb(247, 194, 95);
+}
+
+.cantact{
+   
+    float:left;
+    width: 100%;
+    text-align: center;
+    margin-top: 16px;
+} .cantact .google-map{
+    width: 100%;
+    height: 24vh;
+    background-image: url(image/google-map.jpeg);
+    background-repeat: no-repeat;
+    margin-left: 30%;
+    padding: 2px;
+    text-align: center;
+}
+.cantact ul li {
+    display:inline-block;
+    padding: 35px 13px;
+    
+}
+.cantact ul li a{
+    text-decoration: none;
+    padding: 8px;
+    color: rgb(0, 0, 0);
+}
+.cantact ul li a:hover{
+    color: orangered;
+text-decoration: underline;
+text-transform: uppercase;
+}
+.cantact .hours{
+    color: rgb(0, 0, 0);
+    padding: 10px;
+}
+.cantact .logo{
+    background-color: black;
+    
+}
+.submit button{
+    padding: 5px;
+    background-color: rgb(249, 168, 19);
+    margin-top: 8px;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.submit button:hover{
+    box-shadow: 0 0 5px orange, 0 0 25px orange, 0 0 50px orange, 0 0 100px orange, 0 0 200px orange;
+}
+h4{
+    text-align: center;
+    font-size: 45px;
+color: orangered;
+}
+.contact-us img{
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    margin: -32px;
+    padding: 33px;
+    border-radius:50px ;
+}
